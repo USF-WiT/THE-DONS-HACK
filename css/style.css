@@ -6632,7 +6632,7 @@ button.bg-dark:focus {
 
 .mb-4,
 .my-4 {
-  margin-bottom: 1.5rem !important; }
+  margin-bottom: 1.0rem !important; }
 
 .ml-4,
 .mx-4 {
@@ -8816,10 +8816,10 @@ h1, h2, h3, h4, h5,
     .services-1 .desc h3:after {
       position: absolute;
       bottom: -15px;
-      left: 0;
+      left: 10;
       right: 0;
       content: '';
-      width: 30px;
+      width: 20px;
       height: 1px;
       background: #17b978;
       margin: 0 auto; }
