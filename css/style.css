@@ -9341,6 +9341,7 @@ textarea.form-control {
 
 .faq-title {
   margin: 0 35px 0 0;
+  font-size: large;
 }
 
 .faq-text {
@@ -9350,12 +9351,14 @@ textarea.form-control {
 }
 
 .faq.active {
-  background-color: #f8f8f8;
+  /* background-color: #f8f8f8; */
+  /* background-color: #f5f4fb; */
   box-shadow: inset 4px 0px 0px 0px var(--accent-color);
 }
 
 .faq.active .faq-title {
-  color: var(--accent-color);
+  /* color: var(--accent-color); */
+  color: #17b978;
 }
 
 .faq.active .faq-text {
@@ -9387,7 +9390,9 @@ textarea.form-control {
 
 .faq.active .faq-toggle {
   transform: rotate(180deg);
-  background-color: var(--accent-color);
-  border-color: var(--accent-color);
+  /* background-color: var(--accent-color);
+  border-color: var(--accent-color); */
   color: #fff;
+  background-color: #17b978;
+  border-color: #17b978;
 }
