@@ -9405,3 +9405,11 @@ textarea.form-control {
   background-color: #17b978;
   border-color: #17b978;
 }
+
+#about-section {
+  margin: 10px 0px 100px;
+}
+
+#categories-section {
+  margin: 10px 0px 100px;
+}
