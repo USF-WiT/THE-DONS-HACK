@@ -63,12 +63,6 @@ body {
   outline: 0 !important; }
 
 
-.about-section{
-  display: grid;
-  grid-template-columns: 1fr 1fr;
-  grid-gap: 20px;
-}
-
 hr {
   -webkit-box-sizing: content-box;
   box-sizing: content-box;
