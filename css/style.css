@@ -253,6 +253,10 @@ textarea {
   overflow: auto;
   resize: vertical; }
 
+.categories-text{
+  font-weight: 200;
+}
+
 fieldset {
   min-width: 0;
   padding: 0;
@@ -862,7 +866,7 @@ pre {
     -webkit-box-flex: 1;
     -ms-flex-positive: 1;
     flex-grow: 1;
-    max-width: 100%; }
+    max-width: 80%; }
   .col-md-auto {
     -webkit-box-flex: 0;
     -ms-flex: 0 0 auto;
@@ -3497,7 +3501,10 @@ input[type="button"].btn-block {
   -webkit-box-align: center;
   -ms-flex-align: center;
   align-items: center; }
-
+  
+.icon-size{
+  font-size: 30px;
+}
 .navbar-toggler {
   padding: 0.25rem 0.75rem;
   font-size: 1.25rem;
@@ -6633,7 +6640,8 @@ button.bg-dark:focus {
 
 .mb-4,
 .my-4 {
-  margin-bottom: 1.0rem !important; }
+  margin-bottom: 1.0rem !important;
+text-align: center; }
 
 .ml-4,
 .mx-4 {
