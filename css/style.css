@@ -2100,9 +2100,22 @@ fieldset:disabled a.btn {
       -webkit-box-shadow: 0 0 0 0.2rem rgba(38, 143, 255, 0.5);
       box-shadow: 0 0 0 0.2rem rgba(38, 143, 255, 0.5); }
 
+.btn-register{
+  background-color: #263b5e;
+  color:white;
+}
+.btn-guide{
+  background-color: #17B978;
+  color:white;
+  top:77%;
+  left:50%;
+  position: absolute;
+
+}
+
 .btn-secondary {
   color: #fff;
-  background-color: #6c757d;
+  background-color: #1b79cb;
   border-color: #6c757d; }
   .btn-secondary:hover {
     color: #fff;
@@ -8158,6 +8171,7 @@ a {
   -webkit-transition: .3s all ease;
   -o-transition: .3s all ease;
   transition: .3s all ease;
+  color: #263b5e;
   color: #17b978; }
   a:hover, a:focus {
     text-decoration: none;
