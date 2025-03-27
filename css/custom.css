@@ -128,4 +128,108 @@
     position: relative;
     top: 0;
     left: 0;
+}
+
+/* Schedule Section Responsive Styles */
+@media (max-width: 768px) {
+    #schedule-section table {
+        width: 100%;
+        margin-bottom: 2rem;
+    }
+
+    #schedule-section th,
+    #schedule-section td {
+        padding: 0.75rem;
+        font-size: 0.9rem;
+        word-wrap: break-word;
+    }
+
+    #schedule-section .page {
+        padding: 1.5rem;
+    }
+
+    #schedule-section .heading {
+        font-size: 1.8rem;
+        margin-bottom: 1.5rem;
+    }
+
+    #navi {
+        margin-bottom: 2rem;
+    }
+
+    #navi ul {
+        display: flex;
+        justify-content: center;
+        gap: 1rem;
+        padding: 0;
+    }
+
+    #navi ul li {
+        list-style: none;
+    }
+
+    #navi ul li a {
+        padding: 0.5rem 1rem;
+        background: #f8f9fa;
+        border-radius: 4px;
+        color: #000;
+        text-decoration: none;
+        font-weight: 500;
+    }
+
+    #navi ul li a:hover,
+    #navi ul li a:focus {
+        background: #17b978;
+        color: white;
+    }
+
+    /* Adjust the navigation column width */
+    #schedule-section .col-md-3 {
+        width: 100%;
+        margin-bottom: 1rem;
+    }
+
+    /* Adjust the content column width */
+    #schedule-section .col-md-9 {
+        width: 100%;
+        padding: 0 1rem;
+    }
+
+    /* Make time and activity columns more balanced */
+    #schedule-section th[width="40%"],
+    #schedule-section td:first-child {
+        width: 45%;
+    }
+
+    #schedule-section td:last-child {
+        width: 55%;
+    }
+}
+
+/* Additional adjustments for extra small devices */
+@media (max-width: 576px) {
+    #schedule-section th,
+    #schedule-section td {
+        padding: 0.5rem;
+        font-size: 0.85rem;
+    }
+
+    #schedule-section .heading {
+        font-size: 1.5rem;
+    }
+
+    #navi ul {
+        flex-wrap: wrap;
+    }
+
+    #navi ul li {
+        flex: 1;
+        min-width: 80px;
+        text-align: center;
+    }
+
+    #navi ul li a {
+        padding: 0.4rem 0.8rem;
+        display: block;
+    }
 } 
