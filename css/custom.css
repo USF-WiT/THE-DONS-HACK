@@ -1,0 +1,131 @@
+/* Hero Section Styles */
+.hero-wrap {
+    position: relative;
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    overflow: hidden;
+}
+
+.hero-wrap .text {
+    padding: 2rem;
+    padding-left: 6rem;
+    flex: 1;
+}
+
+.hero-wrap .col-md-6 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+}
+
+.hero-wrap h1 {
+    font-size: 4rem;
+    font-weight: 800;
+    margin-bottom: 1.5rem;
+}
+
+.hero-wrap .subheading {
+    font-size: 1.4rem;
+    color: #17b978;
+    font-weight: 600;
+    margin-bottom: 1.5rem;
+    display: block;
+}
+
+.hero-wrap .date-location {
+    font-size: 1.2rem;
+    margin-bottom: 2.5rem;
+}
+
+.hero-wrap .btn {
+    margin-bottom: 1rem;
+    display: inline-block;
+}
+
+.donshack-logo {
+    max-width: 115%;
+    height: auto;
+    max-height: none;
+    object-fit: contain;
+    padding: 0;
+    margin: auto;
+    transform: scale(1.1);
+}
+
+/* Responsive Styles */
+@media (max-width: 992px) {
+    .donshack-logo {
+        max-width: 105%;
+        transform: scale(1);
+    }
+    
+    .hero-wrap .text {
+        padding-left: 4rem;
+    }
+}
+
+@media (max-width: 768px) {
+    .hero-wrap h1 {
+        font-size: 2.5rem;
+    }
+    
+    .hero-wrap .text {
+        text-align: center;
+        padding: 2rem;
+    }
+    
+    .hero-wrap .btn {
+        display: block;
+        margin: 0.5rem auto;
+    }
+    
+    .donshack-logo {
+        max-width: 100%;
+        transform: none;
+        margin-top: 2rem;
+    }
+}
+
+@media (max-width: 576px) {
+    .hero-wrap h1 {
+        font-size: 2rem;
+    }
+    
+    .hero-wrap .subheading {
+        font-size: 1rem;
+    }
+    
+    .hero-wrap .date-location {
+        font-size: 0.9rem;
+    }
+    
+    .hero-wrap .text {
+        padding: 1rem;
+    }
+    
+    .donshack-logo {
+        max-width: 100%;
+        transform: none;
+    }
+}
+
+.button-group {
+    display: flex;
+    gap: 1rem;
+    align-items: center;
+}
+
+.button-group .btn {
+    margin: 0;
+    flex: 0 0 auto;
+}
+
+.btn-guide {
+    background-color: #17B978;
+    color: white;
+    position: relative;
+    top: 0;
+    left: 0;
+} 
